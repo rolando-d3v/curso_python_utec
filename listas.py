@@ -100,8 +100,16 @@
     
 # 1. Imprimir números del 1 al 10
 
-for numero in range(1, 11):
-    print(numero)
+# for numero in range(1, 11):
+#     print(numero)
 
     
-    
+descuentos = [0.05, 0.8, 0.6]
+nuevos = []
+
+for descuento in descuentos:
+    pepe = round(descuento + 0.01, 2)
+    nuevos.append(pepe)
+
+print("Original:", descuentos)
+print("Con aumento:", nuevos)
