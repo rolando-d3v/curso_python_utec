@@ -103,7 +103,9 @@
 # for numero in range(1, 11):
 #     print(numero)
 
-    
+   
+   
+# for con listas y redondeo  
 descuentos = [0.05, 0.8, 0.6]
 nuevos = []
 
