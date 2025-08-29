@@ -106,12 +106,34 @@
    
    
 # for con listas y redondeo  
-descuentos = [0.05, 0.8, 0.6]
-nuevos = []
+# descuentos = [0.05, 0.8, 0.6]
+# nuevos = []
 
-for descuento in descuentos:
-    pepe = round(descuento + 0.01, 2)
-    nuevos.append(pepe)
+# for descuento in descuentos:
+#     pepe = round(descuento + 0.01, 2)
+#     nuevos.append(pepe)
 
-print("Original:", descuentos)
-print("Con aumento:", nuevos)
+# print("Original:", descuentos)
+# print("Con aumento:", nuevos)
+
+
+
+
+# Nivel básico
+# 1. Imprimir números del 1 al 5
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+
+
+
+
+# 5. Nota entre 0 y 20
+nota = -1
+
+while nota < 0 or nota > 20:
+    nota = int(input("Ingrese una nota (0-20): "))
+
+print("Nota válida ingresada:", nota)
