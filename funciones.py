@@ -266,3 +266,6 @@ lista_campanas = ["Venta de Verano", "Promoción de Invierno", "Venta Especial"]
 palabra_buscar = "venta"
 print(f"La palabra '{palabra_buscar}' aparece {contar_palabra_clave(lista_campanas, palabra_buscar)} veces.")
 print("-" * 20)
+
+
+
